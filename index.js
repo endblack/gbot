@@ -38,7 +38,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'ORG: Dono do bot;\n' 
             + 'TEL;type=CELL;type=VOICE;waid=559184035474:+55 91 8403-5474\n' 
             + 'END:VCARD' 
-prefix = '#'
+prefix = '!'
 blocked = []   
 limitawal = '20'
 cr = '*BOT INI SUDAH TERVERIFIKASI*'
