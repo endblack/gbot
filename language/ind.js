@@ -116,24 +116,24 @@ exports.reglevelahf = (command, pushname, getLevelingLevel, sender, ahf) => {
 
 exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp, _registered, uangku) => { 
 	return `
-╭══─⊱ ❰ *ABOUT USER* ❱ ⊰─══
-╠☞ *Nama* : ${pushname}
-╠☞ *Nomer* : wa.me/${sender.split("@")[0]}
-╠☞ *Uang mu* : Rp${uangku}
+╭══─⊱ ❰ *INFO DO USER* ❱ ⊰─══
+╠☞ *Nome* : ${pushname}
+╠☞ *Número* : wa.me/${sender.split("@")[0]}
+╠☞ *Pontos* : Rp${uangku}
 ╠☞ *XP* : ${getLevelingXp(sender)}/${reqXp}
-╠☞ *Level* : ${getLevelingLevel(sender)}
-╠☞ *User register* : ${_registered.length}
+╠☞ *Nível* : ${getLevelingLevel(sender)}
+╠☞ *User registrado* : ${_registered.length}
 ╰════─⊱  ⸨ *AFFIS* ⸩  ⊰─════╯
 
             𝐑𝐮𝐥𝐞𝐬 - 𝐒𝐢𝐦𝐩𝐥𝐞
 ▬▭▬▭▬▭▬▭▬▭▬▭▬
 ●⧐ *Spam : Auto Block!*
-●⧐ *Beri Jeda 5detik Saat Menggunakannya!!*
-●⧐ *Bug/Error Harap Cht Owner!*
-●⧐ *Untuk Memastikan Bot Off Atau On*
-●⧐ *Ketik ${prefix}bot*
-●⧐ *Harap Sabar Dengan Bug²nya!*
-●⧐ *Gunakan Bot Sebaik-baiknya!*
+●⧐ *Dê uma pausa de 5 segundos para usar!!*
+●⧐ *Bug/Error, por favor reporte ao dono!*
+●⧐ *Para garantir que o bot está ativo*
+●⧐ *Digite ${prefix}bot*
+●⧐ *seja paciênte ao usar o bot!*
+●⧐ *Faça bom uso do bot!*
 ▬▭▬▭▬▭▬▭▬▭▬▭▬
 
 ╭══─⊱ ❰ *MAKER MENU* ❱ ⊰─══➤
@@ -180,7 +180,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *${prefix}anjing*
 ╠☞ *${prefix}1cak*
 ║
-╠══─⊱ ❰ *GROUP MENU* ❱ ⊰─══➤
+╠══─⊱ ❰ *GRUPOS* ❱ ⊰─══➤
 ╠☞ *${prefix}hidetag*
 ╠☞ *${prefix}grouplist*
 ╠☞ *${prefix}limit*
@@ -217,22 +217,17 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ║
 ╠══─⊱ ❰ *THANGKS TO* ❱ ⊰─══➤
 ║
-╠☞ *AFFIS JUNIANTO*
-╠☞ *FADHIL GRAPHY*
-╠☞ *XPTN (AGUNG)*
-╠☞ *MYBOT TEAM*
-║
-╰════─⊱  ⸨ *AFFIS* ⸩  ⊰─════╯
+╰════─⊱  ⸨ *MEGAH* ⸩  ⊰─════╯
 `
 }
 
 exports.levelup = (pushname, sender, getLevelingXp,  getLevel, getLevelingLevel) => {
 	return`
-*「 SELAMAT 」*
-┏⊱ *Nama* : ${pushname}
-┣⊱ *Nomer* : wa.me/${sender.split("@")[0]}
+*「 FELIZ? 」*
+┏⊱ *Nome* : ${pushname}
+┣⊱ *Número* : wa.me/${sender.split("@")[0]}
 ┣⊱ *Xp* : ${getLevelingXp(sender)}
-┗⊱ *Level* : ${getLevel} ⊱ ${getLevelingLevel(sender)}
+┗⊱ *Nível* : ${getLevel} ⊱ ${getLevelingLevel(sender)}
 `}
  
 exports.limitend = (pushname) => {
@@ -241,16 +236,16 @@ exports.limitend = (pushname) => {
 
 exports.limitcount = (limitCounts) => {
 	return`
-*「 LIMIT COUNT 」*
-sisa limit anda : ${limitCounts}
+*「 LIMITE DA CONTA 」*
+O resto do seu limite : ${limitCounts}
 
-NOTE : untuk mendapatkan limit. bisa lewat naik level atau buylimit`
+NOTA : untuk mendapatkan limit. bisa lewat naik level atau buylimit`
 }
 
 exports.satukos = () => {
-	return`*Tambah parameter 1/enable atau 0/disable`
+	return`*Tambah parameter 1/ativa atau 0/desativa`
 }
 
 exports.uangkau = (pushname, sender, uangkau) => {
-	return`*┏⊱ *「 ATM 」* ━┓\n┣⊱ *Nama* : ${pushname}\n┣⊱ *Nomer* : ${sender.split("@")[0]}\n┣⊱ *Uang* : ${uangkau}\n┗━━━━━━━━━━`
+	return`*┏⊱ *「 ATM 」* ━┓\n┣⊱ *Nome* : ${pushname}\n┣⊱ *Número* : ${sender.split("@")[0]}\n┣⊱ *Pontos* : ${uangkau}\n┗━━━━━━━━━━`
 }
