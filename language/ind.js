@@ -122,7 +122,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *Pontos* : Rp${uangku}
 ╠☞ *XP* : ${getLevelingXp(sender)}/${reqXp}
 ╠☞ *Nível* : ${getLevelingLevel(sender)}
-╠☞ *User registrado* : ${_registered.length}
+╠☞ *Total registrados* : ${_registered.length}
 ╰════─⊱  ⸨ *MEGAH* ⸩  ⊰─════╯
 
             𝐑𝐮𝐥𝐞𝐬 - 𝐒𝐢𝐦𝐩𝐥𝐞
@@ -131,7 +131,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ●⧐ *Dê uma pausa de 5 segundos para usar!!*
 ●⧐ *Bug/Error, por favor reporte ao dono!*
 ●⧐ *Para garantir que o bot está ativo*
-●⧐ *Digite ${prefix}bot*
+●⧐ *Digite ${prefix}info*
 ●⧐ *seja paciênte ao usar o bot!*
 ●⧐ *Faça bom uso do bot!*
 ▬▭▬▭▬▭▬▭▬▭▬▭▬
@@ -204,7 +204,6 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠══─⊱ ❰ *DONO* ❱ ⊰─══➤
 ╠☞ *${prefix}bc*
 ╠☞ *${prefix}bcgc*
-╠☞ *${prefix}kickall*
 ╠☞ *${prefix}setreply*
 ╠☞ *${prefix}setprefix*
 ╠☞ *${prefix}clearall*
@@ -231,7 +230,7 @@ exports.levelup = (pushname, sender, getLevelingXp,  getLevel, getLevelingLevel)
 `}
  
 exports.limitend = (pushname) => {
-	return`*desculpe ${pushname} o limite de hoje aumentou*\n*O limite é redefinido a cada 24 horas*`
+	return`*desculpe ${pushname} o seu limite de hoje acabou*\n*O limite é redefinido a cada 24 horas*`
 }
 
 exports.limitcount = (limitCounts) => {
@@ -243,7 +242,7 @@ NOTA : para chegar ao limite.  pode passar de nível ou limite de capacidade`
 }
 
 exports.satukos = () => {
-	return`*use 1 para ativar e 0 para desativar`
+	return`*use 1 para ativar e 0 para desativar /n/nou {prefix}ativar/desativar`
 }
 
 exports.uangkau = (pushname, sender, uangkau) => {
