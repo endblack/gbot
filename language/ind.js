@@ -23,7 +23,7 @@ exports.lvlnoon = () => {
 }
 
 exports.noregis = () => {
-	return`*「 NÃO ESTÁ REGISTRADO 」*\n\n*como se registra ${prefix}daftar nome|idade* \n*exemplo: ${prefix}daftar affis|17*`
+	return`*「 NÃO ESTÁ REGISTRADO 」*\n\n*como se registra: ${prefix}daftar nome|idade* \n*exemplo: ${prefix}daftar affis|17*`
 }
 
 exports.rediregis = () => {
@@ -59,7 +59,7 @@ exports.badmin = () => {
 }
 
 exports.nsfwoff = () => {
-	return`*NSFW EM ATIVO*`
+	return`*NSFW EM ATIVADO*`
 }
 
 exports.bug = () => {
@@ -79,39 +79,39 @@ exports.pc = () => {
 }
 
 exports.registered = (namaUser, umurUser, serialUser, time, sender) => {
-	return`*「 DATA NEGARA 」*\n\nkamu sudah terdaftar dengan data \n\n┏━⊱nama\┗⊱${namaUser}\n┏━⊱nomer\n┗⊱wa.me/${sender.split("@")[0]}\n┏━⊱umur\n┗⊱${umurUser}\n┏━⊱waktu pendaftaran\n┗⊱${time}\n\n┏━❉ *NS* ❉━\n┣⊱${serialUser}\n┗⊱NOTE : jangan sampai lupa nomer ini karena ini penting:v`
+	return`*「 DADOS DO USER 」*\n\nVocê se registrou com os dados \n\n┏━⊱Nome\n┗⊱${namaUser}\n┏━⊱Número\n┗⊱wa.me/${sender.split("@")[0]}\n┏━⊱Idade\n┗⊱${umurUser}\n┏━⊱hora do registro\n┗⊱${time}\n\n┏━❉ *NS* ❉━\n┣⊱${serialUser}\n┗⊱NOTA : Não se esqueça de número, ele é importante!`
 }
 
 exports.cmdnf = (prefix, command) => {
-	return`command *${prefix}${command}* tidak di temukan\coba tulis *${prefix}menu*`
+	return`comando *${prefix}${command}* não encontrado, tente esse *${prefix}menu*`
 }
 
 exports.owneresce = (pushname) => {
-	return`*maaf tapi ${pushname} bukan owner script*`
+	return`*desculpe ${pushname} mas so meu dono pode usar*`
 }
 
 exports.reglevelaha = (command, pushname, getLevelingLevel, sender, aha) => {
-	return`*Maaf ${pushname} level mu belum mencukupi*\n\n*┏⊱level mu : ${getLevelingLevel(sender)}*\n*┣⊱jenis command : ${command}*\n*┗⊱syarat level : ${aha}*\n\n_NOTE : CHAT/SELALU ON UNTUK MENDAPATKAN XP_`
+	return`*desculpe ${pushname} seu nível não é suficiente*\n\n*┏⊱Seu nível : ${getLevelingLevel(sender)}*\n*┣⊱Tipo de comando : ${command}*\n*┗⊱requisitos de nível : ${aha}*\n\n_NOTA : SEMPRE MANDE MENSAGEM PARA OBTER XP_`
 }
 
 exports.reglevelahb = (command, pushname, getLevelingLevel, sender, ahb) => {
-	return`*Maaf ${pushname} level mu belum mencukupi*\n\n*┏⊱level mu : ${getLevelingLevel(sender)}*\n*┣⊱jenis command : ${command}*\n*┗⊱syarat level : ${ahb}*\n\n_NOTE : CHAT/SELALU ON UNTUK MENDAPATKAN XP_`
+	return`*desculpe ${pushname} seu nível não é suficiente*\n\n*┏⊱Seu nível : ${getLevelingLevel(sender)}*\n*┣⊱Tipo de comando : ${command}*\n*┗⊱requisitos de nível : ${ahb}*\n\n_NOTA : SEMPRE MANDE MENSAGEM PARA OBTER XP_`
 }
 
 exports.reglevelahc = (command, pushname, getLevelingLevel, sender, ahc) => {
-	return`*Maaf ${pushname} level mu belum mencukupi*\n\n*┏⊱level mu : ${getLevelingLevel(sender)}*\n*┣⊱jenis command : ${command}*\n*┗⊱syarat level : ${ahc}*\n\n_NOTE : CHAT/SELALU ON UNTUK MENDAPATKAN XP_`
+	return`*desculpe ${pushname} seu nível não é suficiente*\n\n*┏⊱Seu nível : ${getLevelingLevel(sender)}*\n*┣⊱Tipo de comando : ${command}*\n*┗⊱requisitos de nível : ${ahc}*\n\n_NOTA : SEMPRE MANDE MENSAGEM PARA OBTER XP_`
 }
 
 exports.reglevelahd = (command, pushname, getLevelingLevel, sender, ahd) => {
-	return`*Maaf ${pushname} level mu belum mencukupi*\n\n*┏⊱level mu : ${getLevelingLevel(sender)}*\n*┣⊱jenis command : ${command}*\n*┗⊱syarat level : ${ahd}*\n\n_NOTE : CHAT/SELALU ON UNTUK MENDAPATKAN XP_`
+	return`*desculpe ${pushname} seu nível não é suficiente*\n\n*┏⊱Seu nível : ${getLevelingLevel(sender)}*\n*┣⊱Tipo de comando : ${command}*\n*┗⊱requisitos de nível : ${ahd}*\n\n_NOTA : SEMPRE MANDE MENSAGEM PARA OBTER XP_`
 }
 
 exports.reglevelahe = (command, pushname, getLevelingLevel, sender, ahe) => {
-	return`*Maaf ${pushname} level mu belum mencukupi*\n\n*┏⊱level mu : ${getLevelingLevel(sender)}*\n*┣⊱jenis command : ${command}*\n*┗⊱syarat level : ${ahe}*\n\n_NOTE : CHAT/SELALU ON UNTUK MENDAPATKAN XP_`
+	return`*desculpe ${pushname} level mu belum mencukupi*\n\n*┏⊱Seu nível : ${getLevelingLevel(sender)}*\n*┣⊱Tipo de comando : ${command}*\n*┗⊱requisitos de nível : ${ahe}*\n\n_NOTA : SEMPRE MANDE MENSAGEM PARA OBTER XP_`
 }
 
 exports.reglevelahf = (command, pushname, getLevelingLevel, sender, ahf) => {
-	return`*Maaf ${pushname} level mu belum mencukupi*\n\n*┏⊱level mu : ${getLevelingLevel(sender)}*\n*┣⊱jenis command : ${command}*\n*┗⊱syarat level : ${ahf}*\n\n_NOTE : CHAT/SELALU ON UNTUK MENDAPATKAN XP_`
+	return`*desculpe ${pushname} seu nível não é suficiente*\n\n*┏⊱Seu nível : ${getLevelingLevel(sender)}*\n*┣⊱Tipo de comando : ${command}*\n*┗⊱requisitos de nível : ${ahf}*\n\n_NOTA : SEMPRE MANDE MENSAGEM PARA OBTER XP_`
 }
 
 exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp, _registered, uangku) => { 
@@ -123,7 +123,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *XP* : ${getLevelingXp(sender)}/${reqXp}
 ╠☞ *Nível* : ${getLevelingLevel(sender)}
 ╠☞ *User registrado* : ${_registered.length}
-╰════─⊱  ⸨ *AFFIS* ⸩  ⊰─════╯
+╰════─⊱  ⸨ *MEGAH* ⸩  ⊰─════╯
 
             𝐑𝐮𝐥𝐞𝐬 - 𝐒𝐢𝐦𝐩𝐥𝐞
 ▬▭▬▭▬▭▬▭▬▭▬▭▬
@@ -136,7 +136,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ●⧐ *Faça bom uso do bot!*
 ▬▭▬▭▬▭▬▭▬▭▬▭▬
 
-╭══─⊱ ❰ *MAKER MENU* ❱ ⊰─══➤
+╭══─⊱ ❰ *IMAGE MENU* ❱ ⊰─══➤
 ╠☞ *${prefix}sticker*
 ╠☞ *${prefix}vinta*
 ╠☞ *${prefix}avengers*
@@ -201,7 +201,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *${prefix}simih* [1/0]
 ╠☞ *${prefix}welcome* [1/0]
 ║
-╠══─⊱ ❰ *OWNER MENU* ❱ ⊰─══➤
+╠══─⊱ ❰ *DONO* ❱ ⊰─══➤
 ╠☞ *${prefix}bc*
 ╠☞ *${prefix}bcgc*
 ╠☞ *${prefix}kickall*
@@ -223,7 +223,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 
 exports.levelup = (pushname, sender, getLevelingXp,  getLevel, getLevelingLevel) => {
 	return`
-*「 FELIZ? 」*
+*「 LEVEL UP 」*
 ┏⊱ *Nome* : ${pushname}
 ┣⊱ *Número* : wa.me/${sender.split("@")[0]}
 ┣⊱ *Xp* : ${getLevelingXp(sender)}
@@ -231,7 +231,7 @@ exports.levelup = (pushname, sender, getLevelingXp,  getLevel, getLevelingLevel)
 `}
  
 exports.limitend = (pushname) => {
-	return`*maaf ${pushname} limit hari ini habis*\n*limit di reset setiap jam 24:00*`
+	return`*desculpe ${pushname} o limite de hoje aumentou*\n*O limite é redefinido a cada 24 horas*`
 }
 
 exports.limitcount = (limitCounts) => {
@@ -239,11 +239,11 @@ exports.limitcount = (limitCounts) => {
 *「 LIMITE DA CONTA 」*
 O resto do seu limite : ${limitCounts}
 
-NOTA : untuk mendapatkan limit. bisa lewat naik level atau buylimit`
+NOTA : para chegar ao limite.  pode passar de nível ou limite de capacidade`
 }
 
 exports.satukos = () => {
-	return`*Tambah parameter 1/ativa atau 0/desativa`
+	return`*use 1 para ativar e 0 para desativar`
 }
 
 exports.uangkau = (pushname, sender, uangkau) => {
