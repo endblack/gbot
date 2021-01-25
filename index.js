@@ -898,7 +898,7 @@ client.on('group-participants-update', async (anu) => {
 				case 'info':
 					me = client.user
 					uptime = process.uptime()
-					teks = `*Nome do bot* : ${me.name}\n*Dono* : *MAX*\n*helbran* : Gabriel\n*Número do Bot* : @${me.jid.split('@')[0]}\n*Prefix* : ${prefix}\n*Total de block* : ${blocked.length}\n*O bot está ativo desde* : ${kyun(uptime)}`
+					teks = `*Nome do bot* : ${me.name}\n*Dono* : *MAX*\n*recado* : Amo meu dono🥰\n*Número do Bot* : @${me.jid.split('@')[0]}\n*Prefix* : ${prefix}\n*Total de block* : ${blocked.length}\n*O bot está ativo desde* : ${kyun(uptime)}`
 					buffer = await getBuffer(me.imgUrl)
 					client.sendMessage(from, buffer, image, {caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break
