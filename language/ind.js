@@ -195,8 +195,8 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *${prefix}demote*
 ╠☞ *${prefix}promote*
 ╠☞ *${prefix}listadmin*
-╠☞ *${prefix}group* [buka/tutup]
-╠☞ *${prefix}leveling* [enable/disable]
+╠☞ *${prefix}group* [aabrir/fechar]
+╠☞ *${prefix}leveling* [ativar/desativar]
 ╠☞ *${prefix}nsfw* [1/0]
 ╠☞ *${prefix}simih* [1/0]
 ╠☞ *${prefix}welcome* [1/0]
@@ -215,7 +215,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *${prefix}clone*
 ╠☞ *${prefix}setppbot*
 ║
-╠══─⊱ ❰ *THANGKS TO* ❱ ⊰─══➤
+╠══─⊱ ❰ *FAÇA BOM USO* ❱ ⊰─══➤
 ║
 ╰════─⊱  ⸨ *MEGAH* ⸩  ⊰─════╯
 `
