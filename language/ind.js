@@ -242,7 +242,7 @@ NOTA : para chegar ao limite.  pode passar de nível ou limite de capacidade`
 }
 
 exports.satukos = () => {
-	return`*use 1 para ativar e 0 para desativar /n/nou {prefix}ativar/desativar`
+	return`*use 1 para ativar e 0 para desativar \n\nou {prefix}ativar/desativar`
 }
 
 exports.uangkau = (pushname, sender, uangkau) => {
